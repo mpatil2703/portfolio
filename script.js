@@ -86,6 +86,13 @@ const DETAIL_CONTENT = {
     links: [
       { href: 'https://tesla-service-analytics-tqsemu4whgfug6ae5u9ymy.streamlit.app/#tesla-service-operations-dashboard4', text: 'Live Dashboard' },
       { href: 'https://github.com/mpatil2703/tesla-service-analytics', text: 'GitHub Repository' }
+    ],
+    images: [
+      { src: 'images/tesla-1-overview.jpg', caption: 'Dashboard overview - KPI cards and cancellation rate by service center' },
+      { src: 'images/tesla-4-cancellation-trend.jpg', caption: 'Cancellation rate trend as technician utilization rises' },
+      { src: 'images/tesla-5-appointment-type-heatmap.jpg', caption: 'Cancellation rate by appointment type × utilization bucket' },
+      { src: 'images/tesla-2-channel-breakdown.jpg', caption: 'Appointment mix and cancellation rate by channel' },
+      { src: 'images/tesla-3-utilization-bucket.jpg', caption: 'Cancellation rate by technician utilization bucket' }
     ]
   },
   'shock-wave': {
