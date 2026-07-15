@@ -84,7 +84,7 @@ const DETAIL_CONTENT = {
       'Deployed publicly via Streamlit Community Cloud, version-controlled on GitHub'
     ],
     links: [
-      { href: 'https://tesla-service-analytics-tqsemu4whgfug6ae5u9ymy.streamlit.app/#tesla-service-operations-dashboard4', text: 'Live Dashboard' },
+      { href: 'https://tesla-service-ops.streamlit.app', text: 'Live Dashboard' },
       { href: 'https://github.com/mpatil2703/tesla-service-analytics', text: 'GitHub Repository' }
     ],
     images: [
