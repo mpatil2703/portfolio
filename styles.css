@@ -830,8 +830,13 @@ body {
 /* Skills */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
   gap: 1.5rem;
+}
+
+.skill-category--wide {
+  grid-column: 1 / -1;
 }
 
 .skill-category {
@@ -1365,6 +1370,10 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
   }
 
   .about-layout {
