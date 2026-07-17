@@ -88,11 +88,14 @@ const DETAIL_CONTENT = {
       { href: 'https://github.com/mpatil2703/tesla-service-analytics', text: 'GitHub Repository' }
     ],
     images: [
-      { src: 'images/tesla-1-overview.jpg', caption: 'Dashboard overview - KPI cards and cancellation rate by service center' },
-      { src: 'images/tesla-4-cancellation-trend.jpg', caption: 'Cancellation rate trend as technician utilization rises' },
-      { src: 'images/tesla-5-appointment-type-heatmap.jpg', caption: 'Cancellation rate by appointment type × utilization bucket' },
-      { src: 'images/tesla-2-channel-breakdown.jpg', caption: 'Appointment mix and cancellation rate by channel' },
-      { src: 'images/tesla-3-utilization-bucket.jpg', caption: 'Cancellation rate by technician utilization bucket' }
+      { src: 'images/tesla-1-intro-problem.jpg', caption: 'Project overview and problem statement' },
+      { src: 'images/tesla-2-key-finding-kpis.jpg', caption: 'Key finding and dashboard KPIs' },
+      { src: 'images/tesla-3-cancellation-by-center.jpg', caption: 'Cancellation rate by service center' },
+      { src: 'images/tesla-4-channel-breakdown.jpg', caption: 'Appointment mix and cancellation rate by channel' },
+      { src: 'images/tesla-5-utilization-bucket.jpg', caption: 'Cancellation rate by technician utilization' },
+      { src: 'images/tesla-6-cancellation-trend.jpg', caption: 'Cancellation rate trend as workload rises' },
+      { src: 'images/tesla-7-appointment-heatmap.jpg', caption: 'Cancellation rate by appointment type and utilization' },
+      { src: 'images/tesla-8-key-insights-methodology.jpg', caption: 'Key insights and methodology' }
     ]
   },
   'shock-wave': {
