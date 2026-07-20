@@ -105,7 +105,8 @@ const DETAIL_CONTENT = {
       'Built a conceptual demo showing how AI can automate vendor and purchase order approval triage, evaluating each request against 5 policy rules: amount thresholds, new-vendor risk, category risk, duplicate detection, and monthly budget caps',
       'Each request returns a decision paired with a plain-language explanation of the agent\'s reasoning, not just an approve/reject verdict',
       'Modeled 5 fictional companies spanning aerospace, automotive, IT, consulting, and consumer goods industries to test whether the same rules engine could generalize across different business contexts',
-      'Fully responsive with automatic dark/light theme support'
+      'Fully responsive with automatic dark/light theme support',
+      'Built using Claude Code, with all problem scoping, policy design, and product decisions driven by me'
     ],
     links: [
       { href: 'https://vendor-approval-agent.vercel.app', text: 'Live Demo' },
