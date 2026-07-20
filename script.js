@@ -98,6 +98,31 @@ const DETAIL_CONTENT = {
       { src: 'images/tesla-8-key-insights-methodology.jpg', caption: 'Key insights and methodology' }
     ]
   },
+  'vendor-approval-agent': {
+    title: 'Vendor & PO Approval Agent',
+    tag: 'React · TypeScript · Vite',
+    bullets: [
+      'Built a conceptual demo showing how AI can automate vendor and purchase order approval triage, evaluating each request against 5 policy rules: amount thresholds, new-vendor risk, category risk, duplicate detection, and monthly budget caps',
+      'Each request returns a decision paired with a plain-language explanation of the agent\'s reasoning, not just an approve/reject verdict',
+      'Modeled 5 fictional companies spanning aerospace, automotive, IT, consulting, and consumer goods industries to test whether the same rules engine could generalize across different business contexts',
+      'Fully responsive with automatic dark/light theme support'
+    ],
+    links: [
+      { href: 'https://vendor-approval-agent.vercel.app', text: 'Live Demo' },
+      { href: 'https://github.com/mpatil2703/vendor-approval-agent', text: 'GitHub Repository' },
+      { href: 'https://github.com/mpatil2703/vendor-approval-agent/blob/main/docs/case-study.md', text: 'Case Study' }
+    ],
+    images: [
+      { src: 'images/vendorpo-1-intro-overview.jpg', caption: 'Project overview and how it works' },
+      { src: 'images/vendorpo-2-aerospace-dashboard.jpg', caption: 'Aerospace company dashboard - Solstice Aerodyne Inc.' },
+      { src: 'images/vendorpo-3-aerospace-requests-list.jpg', caption: 'Full request list with policy-driven decisions' },
+      { src: 'images/vendorpo-4-automotive-dashboard.jpg', caption: 'Automotive company dashboard - Ridgeline Motor Works' },
+      { src: 'images/vendorpo-5-it-technology-dashboard.jpg', caption: 'IT/Technology dashboard - Cobalt Nine Technologies' },
+      { src: 'images/vendorpo-6-consulting-dashboard.jpg', caption: 'Consulting dashboard - Meridian Advisory Partners' },
+      { src: 'images/vendorpo-7-consumer-goods-dashboard.jpg', caption: 'Consumer goods dashboard - Brightleaf Consumer Goods Co.' },
+      { src: 'images/vendorpo-8-new-request-form.jpg', caption: 'Submitting a new request for live evaluation' }
+    ]
+  },
   'shock-wave': {
     title: 'Investigating Dynamics of Shock Wave–Flame Interaction',
     tag: 'Springer Nature · ICTAC 2024 · KSCST Funded',
